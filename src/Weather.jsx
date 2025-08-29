@@ -26,14 +26,15 @@ function Weather() {
   };
 
   return (
-    <div className="container">
-      <input
+    <div className="weather-container">
+      <h2>Weather Forcasting</h2>
+      <input className="textBox"
         placeholder="enter the city name"
         type="text"
         value={city}
         onChange={handlecityChange}
       />
-      <button onClick={handleClick}>check weather</button>
+      <button className="button" onClick={handleClick}>check weather</button>
       {weather && (
         <>
         <div className="weather-info">

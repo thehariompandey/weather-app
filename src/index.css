@@ -1,3 +1,6 @@
+@import "tailwindcss";
+
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -66,3 +69,50 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+
+.weather-container {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  width: 350px;
+  text-align: center;
+}
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: rgb(119, 178, 233);
+}
+
+input {
+  width: 80%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+button {
+  background: rgb(119, 178, 233);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: rgb(35, 35, 230);
+}
+
+.weather-info {
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+}
+
+
+  
